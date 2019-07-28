@@ -1,0 +1,73 @@
+.App {
+  
+}
+
+.productImg{
+  width:100%;
+  height:150px;
+  padding:20px;
+}
+
+.productImg:hover{
+  padding:0px;
+  transition: 0.7s
+}
+
+.productImg:not(:hover){
+  padding:20px;
+  transition:0.7s
+}
+
+.singleProduct:hover{
+background-color: rgb(230, 219, 221);
+}
+
+.detailImg{
+  width: 100%;
+  height:400px;
+  padding:20px;
+}
+
+.detailImg:hover{
+  padding:0px;
+  transition:0.7s;
+}
+
+.detailImg:not(:hover){
+  padding:20px;
+  transition:0.7s
+}
+.detail{
+  margin-top: 50px;
+}
+
+.cart-btn{
+  background:transparent;
+  border:none;
+  visibility: hidden;
+}
+.cart-btn > img {
+  width:50px;
+  height: 40px;
+}
+.singleProduct:hover > p > .cart-btn{
+  visibility: visible;
+  padding: 0px;
+  transition: 0.7s;
+  color:white;
+  font-weight: bold;
+  background-color: pink;
+  border-radius: 10px;
+  
+}
+
+.delete-btn{
+  background-color: red;
+  border:none;
+  color:white;
+  padding:5px;
+}
+
+.rmv-btn:hover{
+  color:red;
+}
